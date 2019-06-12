@@ -35,7 +35,7 @@ let crearArchivo = (base, limite = 10) => {
             if (err)
                 reject(err)
             else
-                resolve(`tabla- ${ base }-al-${ limite }.txt`);
+                resolve(`tabla-${ base }-al-${ limite }.txt`);
             //console.log(`El archivo tabla-${ base }.txt ha sido creado`);
         });
 
